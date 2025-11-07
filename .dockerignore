@@ -1,0 +1,62 @@
+# Ignore git files
+.git
+.gitignore
+.gitattributes
+
+# Ignore documentation
+*.md
+!README.md
+docs/
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Dependencies
+vendor/
+
+# Build artifacts
+dist/
+build/
+*.exe
+*.test
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Logs
+logs/
+*.log
+
+# Test coverage
+coverage/
+*.cover
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# External dependencies (not needed in image)
+external/
+
+# Infrastructure files (not needed in containers)
+infra/
+!infra/nginx.conf
